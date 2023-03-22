@@ -67,3 +67,8 @@ options = st.multiselect(
      ['Yellow', 'Red'])
 
 st.write('You selected:', options)
+
+#Day 17
+st.title('st.secrets')
+
+st.write(st.secrets['message'])
